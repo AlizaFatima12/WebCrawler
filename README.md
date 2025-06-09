@@ -79,5 +79,9 @@ Notes
 - Do not crawl websites you don’t have permission to scrape
 - The SQLite database file is automatically created in the same directory
 - If database is locked, avoid running multiple instances in parallel
+  
+Prerequisites:
+- Make sure Google Chrome browser is installed on your system.
+- ChromeDriver is required for Selenium to work. This is handled automatically by webdriver-manager, so no manual setup is needed.
 
 Happy crawling!
